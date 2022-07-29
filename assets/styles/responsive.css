@@ -3,32 +3,100 @@
   .description {
     max-width: 400px;
   }
+
+  header>.header-right {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-right: 100px;
+  }
+
+  header>.header-left>.nav-title {
+    margin-left: 10px;
+    font-size: 25px;
+  }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+
   /* Responsive Artanto */
-  .header-right {
-    display: none;
+  header {
+    width: 110%;
+    padding: 7px 0px;
+  }
+  header>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
   }
 
-  .menu-icon {
-    display: block;
-  }
-  .header-left h1 {
+  header>.header-left>.nav-title {
+    margin-left: 20px;
     font-size: 25px;
-    padding-top: 5px;
   }
+
+  header>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    padding: 13px;
+  }
+
+  header>.nav-btn>label:hover,
+  .nav #nav-check:checked~.nav-btn>label {
+    background-color: rgba(94, 71, 41, 0.5);
+  }
+
+  header>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+
+  header>.header-right {
+    margin-top: 12px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    background-color: rgba(94, 71, 41, 0.8);    
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+
+  header>.header-right>a {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  header>#nav-check:not(:checked)~.header-right {
+    height: 0px;
+  }
+
+  header>#nav-check:checked~.header-right {
+    height: 60px;
+  }
+
+  .Banner {
+    margin-top: 60px;
+  }
+
   /* slideshow responsive */
   .card-beranda {
     flex-direction: column;
   }
 }
+
 /* Responsive Chairul Rajib */
 @media (max-width: 670px) {
   .row-rjb {
     flex-direction: column;
   }
+
   .cta h1 {
     font-size: 24px;
   }
