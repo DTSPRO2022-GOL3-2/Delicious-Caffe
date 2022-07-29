@@ -160,7 +160,14 @@ header {
   background-color: rgb(255, 215, 163);
 }
 /* Eko Nardo */
+.image-menu {
+  max-height: 400px;
+  object-fit: cover;
+}
 
+.space {
+  height: 100px;
+}
 /* Chairul Rajib K */
 /* -----Facilities--------- */
 .row-rjb {
