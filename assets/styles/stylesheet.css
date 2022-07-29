@@ -29,11 +29,11 @@ header {
   position: relative;
 }
 
-header>.header-left {
+header > .header-left {
   display: inline;
 }
 
-header>.header-left>.nav-title {
+header > .header-left > .nav-title {
   display: inline-block;
   font-size: 30px;
   color: #fff;
@@ -41,18 +41,18 @@ header>.header-left>.nav-title {
   margin-left: 200px;
 }
 
-header>.nav-btn {
+header > .nav-btn {
   display: none;
 }
 
-header>.header-right {
+header > .header-right {
   display: inline;
   float: right;
   font-size: 18px;
   margin-right: 300px;
 }
 
-header>.header-right>a {
+header > .header-right > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
@@ -60,11 +60,11 @@ header>.header-right>a {
   margin-right: 25px;
 }
 
-header>.header-right>a:hover {
+header > .header-right > a:hover {
   background-color: rgba(94, 71, 41, 0.5);
 }
 
-header>#nav-check {
+header > #nav-check {
   display: none;
 }
 
@@ -79,19 +79,24 @@ header>#nav-check {
 
 .card-beranda {
   padding: 0px !important;
-  margin: 25px 100px;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
   box-shadow: 25px 25px 50px 0 rgb(0 0 0 / 20%);
   border-radius: 5px;
 }
-
-.slide-container {
+.description {
+  width: 100%;
+}
+.card-beranda .slide-container {
   overflow: hidden;
-  width: 400px;
+  min-width: 400px;
+  max-width: 400px;
   height: 400px;
 }
 
 .slides {
-  width: 400px;
+  width: 400px !important;
   float: left;
 }
 
