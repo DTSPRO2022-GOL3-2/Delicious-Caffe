@@ -7,6 +7,8 @@
 - **Chairul Rajib K**
 - **Darlyn Robby Artanto**
 
+## Best Preview Web (1280) and Mobile (390)
+
 ### Gambar Mockup
 ![Gambar Mockup](https://media.discordapp.net/attachments/1001484727309565964/1001797526426497064/web.png?width=395&height=624)
 
