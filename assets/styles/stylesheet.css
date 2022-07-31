@@ -248,4 +248,17 @@ header > #nav-check {
   transition: 1s;
 }
 
+/* footer */
+footer {
+  height: 20px;
+  padding: 20px 0px 20px 30px;
+  align-items: center;
+  background-color: #42391e;
+  color: white;
+}
+
+#tentangkami,
+#menu {
+  text-align: center;
+}
 /* Eka Satria Ariaputra */
